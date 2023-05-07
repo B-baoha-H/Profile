@@ -139,8 +139,8 @@ ul {
 
 /* Colores */
 :root {
-  --first-color: url('/hinhanh/paper.gif');
-  --white-color: #FAFAFF;
+  --first-color: #7097a8;
+  --white-color: #cecee8;
   --dark-color: #2A3B47;
   --text-color: #697477;
 }
