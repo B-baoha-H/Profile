@@ -8,7 +8,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-:root {
+body {
     background-image: url('/hinhanh/paper.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
