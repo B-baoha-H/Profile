@@ -13,81 +13,204 @@
   <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
-  <style r>
-      body {
-      background-image: url('/hinhanh/paper.gif');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-      }
-  </style>
-</body>
-<body>
+  <!-- HEADER -->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="" class="nav__logo">Nguyen Thi Bao Ha</a>
+        </div>
+  
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+  
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ti ti-menu"></i>
+        </div>
+    </nav>
+  </header>
+  <main class="l-main">
+    <section class="home" id="home">
+      <div class="home__container bd-grid">
+          <h1 class="home__title"><span>Hi Guys!</span></h1>
+          
 
-  <div class="wrapper">
-    <div class="left">
-      <img src="hinhanh/mat.jpg" alt="user" width="100">
-      <h4>Nguyen Thi Bao Ha</h4>
-      <p>Ho Chi Minh City University of Education</p>
-    </div>
-    <div class="right">
-      <div class="info">
-        <h3>Information</h3>
-        <div class="info_data">
-          <div class="data">
-            <h4>ID Student</h4>
-            <p>47.01.104.081</p>
+          <div class="home__scroll">
+              <a href="#about" class="home__scroll-link"><i class="ti ti-arrow-up"></i>Scroll down</a>
           </div>
-          <div class="data">
-            <h4>Major</h4>
-            <p>Software Engineering and Information Systems</p>
+
+          <!-- <img src="./assets/img/avatar.jpg" alt="" class="home__img"> -->
+      </div>
+    </section>
+      <section class="about section" id="about">
+
+      <div class="wrapper">
+        <div class="left">
+          <img src="hinhanh/mat.jpg" alt="user" width="200">
+          <h4>Nguyen Thi Bao Ha</h4>
+          <p>Ho Chi Minh City University of Education</p>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>Information</h3>
+            <div class="info_data">
+              <div class="data">
+                <h4>ID Student</h4>
+                <p>47.01.104.081</p>
+              </div>
+              <div class="data">
+                <h4>Major</h4>
+                <p>Software Engineering and Information Systems</p>
+              </div>
+            </div>
+            <div class="info_data">
+              <div class="data">
+                <h4>Date of birth</h4>
+                <p>23-12-2003</p>
+              </div>
+              <div class="data">
+                <h4>Favorite song</h4>
+                <p>KILL THIS LOVE BLACKPINK<audio controls style="width: 200px; height: 35px;">
+                    <source src='/nhac/KillThisLove.mp3' type="audio/mpeg">
+                  </audio></p>
+              </div>
+            </div>
+      
+      
+          </div>
+      
+          <div class="projects">
+            <h3>PROJECT</h3>
+            <div class="projects_data">
+              <div class="data">
+                <h4>Email</h4>
+                <a style="color: brown;" href=mailto:nowiki>baoha2312@gmail.com</a>
+              </div>
+              <div class="data">
+                <h4>Phone</h4>
+                <p style="color: brown;">0355 052 071</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="social_media">
+            <ul>
+              <li><a href="https://www.facebook.com/100029533359193"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCKGKzY_MPTaOOYNV4cT86XA"><i class="fab fa-youtube"></i></a></li>
+              <li><a
+                  href="https://www.instagram.com/baoha_23_12/?fbclid=IwAR0_3pm7UgKCMV_f_dIdUFrJMFVJZvWw85La6nMuYiEgCQjCSP4mEQMYm8A"><i
+                    class="fab fa-instagram"></i></a></li>
+              <li><a
+                href="https://github.com/B-baoha-H"><i class="fab fa-github"
+                  ></i></a></li>
+            </ul>
           </div>
         </div>
-        <div class="info_data">
-          <div class="data">
-            <h4>Date of birth</h4>
-            <p>23-12-2003</p>
+      </div>
+      <script src="https://unpkg.com/scrollreveal"></script>
+    </section>
+
+    
+        <!-- SKILLS -->
+        <section class="skill section" id="skills">
+          <h2 class="section-title">SKILLS</h2>
+
+          <div class="skills__container bd-grid">
+              <div class="skills__box">
+                  <h3 class="skills__subtitle">Language</h3>
+                  <span class="skills__name">HTML</span>
+                  <span class="skills__name">C++</span>
+                  <span class="skills__name">Javascript</span>
+                  <span class="skills__name">PHP</span>
+
+                  <h3 class="skills__subtitle">Design</h3>
+                  <span class="skills__name">Figma</span>
+                  <span class="skills__name">Adobe XD</span>
+                  <span class="skills__name">Photoshop</span>
+              </div>
+
+              <div class=" slider skills__img">
+                  <!-- <img src="./assets/img/1.png" alt=""> -->
+                  <div class="slides">
+                      <!-- radio button  -->
+                      <input type="radio" name="radio-btn" id="radio1">
+                      <input type="radio" name="radio-btn" id="radio2">
+                      <input type="radio" name="radio-btn" id="radio3">
+                      <input type="radio" name="radio-btn" id="radio4">
+      
+                      <!-- slider img -->
+                      <div class="slide first">
+                          <img src="hinhanh/skill1.jpeg" alt="">
+                      </div>
+                      <div class="slide">
+                          <img src="./assets/img/skill2.jpg" alt="">
+                      </div>
+                      <div class="slide">
+                          <img src="./assets/img/skill3.jpg" alt="">
+                      </div>
+                      <div class="slide">
+                          <img src="hinhanh/skill4.jpg" alt="">
+                      </div>
+                      <!-- End slide img -->
+      
+                      <!-- nav start -->
+                      <div class="navigation-auto">
+                          <div class="auto-btn1"></div>
+                          <div class="auto-btn2"></div>
+                          <div class="auto-btn3"></div>
+                          <div class="auto-btn4"></div>
+                      </div>
+                  </div>
+      
+                  <div class="navigation-manual">
+                      <label for="radio1" class="manual-btn"></label>
+                      <label for="radio2" class="manual-btn"></label>
+                      <label for="radio3" class="manual-btn"></label>
+                      <label for="radio4" class="manual-btn"></label>
+                  </div>
+              </div>
           </div>
-          <div class="data">
-            <h4>Favorite song</h4>
-            <p>KILL THIS LOVE BLACKPINK<audio controls style="width: 200px; height: 35px;">
-                <source src='/nhac/KillThisLove.mp3' type="audio/mpeg">
-              </audio></p>
-          </div>
+      </section>
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">CONTACT</h2>
+
+        <div class="contact__container bd-grid">
+            <div class="contact__info">
+                <h3 class="contact__subtitle">Email</h3>
+                <span class="contact__text">baoha2312@gmail.com</span>
+
+                <h3 class="contact__subtitle">Adress</h3>
+                <span class="contact__text">District 5 Ho Chi Minh city</span>
+
+                <h3 class="contact__subtitle">Phone</h3>
+                <span class="contact__text">+84 355 052 071</span>
+
+                <h3 class="contact__subtitle">Github</h3>
+                <span class="contact__text">@B-baoha-H</span>
+              
+            </div>
+
+            <div class="form contact__form">
+                <div class="contact__inputs">
+                    <input type="text" placeholder="Full Name" class="contact__input">
+                    <input type="text" placeholder="Email" class="contact__input">
+                </div>
+
+                <textarea name="" id="" cols="0" rows="15" class="contact__input"></textarea>
+
+                <input type="submit" value="SEND" class="contact__button">
+            </div>
         </div>
-
-
-      </div>
-
-      <div class="projects">
-        <h3>CONTACT</h3>
-        <div class="projects_data">
-          <div class="data">
-            <h4>Email</h4>
-            <a style="color: brown;" href=mailto:nowiki>baoha2312@gmail.com</a>
-          </div>
-          <div class="data">
-            <h4>Phone</h4>
-            <p style="color: brown;">0355 052 071</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="social_media">
-        <ul>
-          <li><a href="https://www.facebook.com/100029533359193"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="https://www.youtube.com/channel/UCKGKzY_MPTaOOYNV4cT86XA"><i class="fab fa-youtube"></i></a></li>
-          <li><a
-              href="https://www.instagram.com/baoha_23_12/?fbclid=IwAR0_3pm7UgKCMV_f_dIdUFrJMFVJZvWw85La6nMuYiEgCQjCSP4mEQMYm8A"><i
-                class="fab fa-instagram"></i></a></li>
-          <li><a
-            href="chitiet.html"><i
-              >More</i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <script src="https://unpkg.com/scrollreveal"></script>
+    </section>
+  </main>
+      
 </body>
 
 </html>
+
