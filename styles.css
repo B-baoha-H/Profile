@@ -281,17 +281,16 @@ img {
 
 .nav__item {
   margin-bottom: var(--mb-4);
-  color: var(--dark-color);
 }
 .nav__link {
   position: relative;
   color: var(--dark-color);
 }
 .nav__logo {
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 .nav__toggle {
-  color: var(--dark-color);
+  color: var(--white-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -480,7 +479,7 @@ img {
   width: 100%;
   padding: .8rem;
   outline: none;
-  border: 1.5px solid var(--green-color);
+  border: 1.5px solid var(--dark-color);
   font-size: var(--normal-font-size);
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
