@@ -8,8 +8,8 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
-  background-image: url('/hinhanh/paper.gif');
+:root {
+    background-image: url('/hinhanh/paper.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -33,7 +33,7 @@ body{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   text-align: center;
-  color: #fff;
+  color: green;
 }
 
 .wrapper .left img{
@@ -139,6 +139,7 @@ ul {
 
 /* Colores */
 :root {
+  --first-color: url('/hinhanh/paper.gif');
   --white-color: #FAFAFF;
   --dark-color: #2A3B47;
   --text-color: #697477;
@@ -326,7 +327,7 @@ img {
 .home__title {
   align-self: flex-end;
   font-size: var(--big-font-size);
-  color: var(--green-color);
+  color: green;
   line-height: 9;
   top: 0%;
 }
