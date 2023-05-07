@@ -16,6 +16,11 @@ body {
 }
 
 .wrapper{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -38,23 +43,27 @@ body {
 
 .wrapper .left img{
   border-radius: 5px;
-  margin-bottom: 10px;
-  margin-left: 30%;
-
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 40%; 
 }
 
 .wrapper .left h4{
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .wrapper .left p{
-  font-size: 12px;
+
+  text-align: center;
 }
 
 .wrapper .right{
+  background: linear-gradient(to right,#c869d1,#caebe3);
+
   width: 75%;
-  background: #fff;
+
   padding: 30px 25px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -96,7 +105,7 @@ body {
 .wrapper .right .projects_data .data p{
   font-size: 13px;
   margin-bottom: 10px;
-  color: #919aa3;
+  color: #067ef5;
 }
 
 .wrapper .social_media ul{
@@ -114,16 +123,14 @@ body {
 }
 
 .wrapper .social_media ul li a{
-  color :#fff;
+  color :#8109f8;
   display: block;
   font-size: 18px;
 }
 .wrappers{
   row-gap: 5rem;
 }
-h1,h2,p {
-  margin: 0;
-}
+
 
 ul {
   margin: 0;
@@ -139,10 +146,10 @@ ul {
 
 /* Colores */
 :root {
-  --first-color: #7097a8;
-  --white-color: #5757a8;
-  --dark-color: #2A3B47;
-  --text-color: #697477;
+  --first-color: #9090a7;
+  --white-color: #26d956;
+  --dark-color: #4786b2;
+  --text-color: #49050c;
 }
 
 :root {
@@ -234,7 +241,8 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-image: url('/hinhanh/paper.gif');
+  /*background-color: var(--first-color);*/
 }
 
 /* LAYOUT */
@@ -254,6 +262,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
+  
   background-color: var(--first-color);
 }
 
@@ -308,13 +317,14 @@ img {
   height: .18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-image: url('/hinhanh/paper.gif')
 }
 
 /* HOME */
 .home {
   position: relative;
-  background-color: var(--first-color);
+  /*
+  background-color: var(--first-color);*/
   overflow: hidden;    
 }
 
@@ -328,7 +338,6 @@ img {
   font-size: var(--big-font-size);
   color: green;
   line-height: 9;
-  top: 0%;
 }
 
 .home__title span{
